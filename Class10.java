@@ -60,9 +60,11 @@ public class Class10
 				int product = x*y;
 				System.out.println("PRODUCT: " + product);
 			}
-		public static void division(int x , int y)
+		public static void division(double x , double y)
 			{
-				double quotient = x / y ;
+				double quotient = x / y ; /*Since Java always rounds down,and you had two ints being divided,
+								rounding error occurs, and THEN you save as double. Now, you 
+								divide with doubles, no error.*/
 				System.out.printf("QUOTIENT: %.3f ", quotient);
  //bro, check out here the value of 3/2 it is giving a wrong answer
 			}
