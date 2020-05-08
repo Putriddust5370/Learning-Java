@@ -36,7 +36,8 @@ public class Class10
 				{
 					System.out.print("x: ");
 					int x = s.nextInt();
-					System.out.print("y: ");
+					System.out.print("y: ");  /** but bro, here also we have to change the data type from int to double, then only it works,
+									anyway, thank you bro..*/
 					int y = s.nextInt();
 					division( x , y );
 				}
