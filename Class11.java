@@ -6,8 +6,7 @@ public class Class11
 			}
 		public static double abc(double x , double y)
 			{
-				double xy = x+y;
-				return xy;
+                            return x+y;
 				
 			}
 	}
