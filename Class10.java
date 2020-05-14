@@ -39,7 +39,7 @@ public class Class10
 					System.out.print("y: ");  /** but bro, here also we have to change the data type from int to double, then only it works,
 									anyway, thank you bro..*/
 					int y = s.nextInt();
-					division( x , y );
+					division( x , y );	//Not so! You can send an int type to a parameter that needs a double and Java will convert.
 				}
 			
 			}
