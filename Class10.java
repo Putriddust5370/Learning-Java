@@ -40,8 +40,7 @@ public class Class10
 									anyway, thank you bro..*/
 					int y = s.nextInt();
 					division( x , y );	//Not so! You can send an int type to a parameter that needs a double and Java will convert.
-				}
-			
+				}	//I mean it's good practice to make the change so that all your types match up, but 'technically' you don't NEED to.
 			}
 			
 		
