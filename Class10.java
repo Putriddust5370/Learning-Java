@@ -10,7 +10,7 @@ public class Class10
 			
 			if( a == 1 )
 				{
-					System.out.print("x: ");
+					System.out.print("x: ");	//bro, how can i reduce the repetation of the raw 13 to 17?
 					int x = s.nextInt();
 					System.out.print("y: ");
 					int y = s.nextInt();
